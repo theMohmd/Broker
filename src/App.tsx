@@ -5,7 +5,7 @@ import Login from "pages/Login";
 import Post from "pages/Post";
 const App = () => {
     return (
-        <div>
+        <div className="h-dvh flex flex-col">
             <Nav />
             <Routes>
                 <Route path="/" element={<Home />} />
