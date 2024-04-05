@@ -4,7 +4,11 @@ export default {
         extend: {
             colors: { primary: "#831843" },
             boxShadow: {
-                "custom": "0 0 15px -5px rgba(0, 0, 0, 0.3)",
+                custom: "0 0 15px -5px rgba(0, 0, 0, 0.3)",
+            },
+            fontFamily: {
+                iranYekan: ["iranYekan", "sans-serif"],
+                iranSans: ["iranSans", "sans-serif"],
             },
         },
     },

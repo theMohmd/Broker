@@ -6,6 +6,16 @@
     @apply md:max-w-[1200px] md:mx-auto px-5;
 }
 
+
+@font-face {
+    font-family: "iranYekan";
+    src: url("assets/iranYekan.ttf");
+}
+@font-face {
+    font-family: "iranSans";
+    src: url("assets/iranSans.ttf");
+}
+
 /*custom scroll bar*/
 /* width */
 ::-webkit-scrollbar {

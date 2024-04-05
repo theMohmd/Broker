@@ -5,10 +5,10 @@ const AdCardList = () => {
         <div
             className="
             overflow-auto
-            grid auto-rows-min grid-flow-row-dense
+            grid auto-rows-max grid-flow-row-dense
             grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
             gap-2 p-4
-            max-h-[84dvh]
+            max-h-[85dvh]
             "
         >
             <AdCard />
