@@ -5,3 +5,26 @@
 .container {
     @apply md:max-w-[1200px] md:mx-auto px-5;
 }
+
+/*custom scroll bar*/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #eee;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+}
