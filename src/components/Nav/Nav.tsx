@@ -1,13 +1,15 @@
 import { NavLink } from "react-router-dom";
+import NavButton from "./NavButton";
 
 const Nav = () => {
     return (
         <div className="grid border-b h-[80px]">
-            <div dir="rtl" className="container flex item-center">
-                <p className="flex justify-center items-center font-bold text-5xl text-primary">
+            <div dir="rtl" className="container flex gap-5 items-center">
+                <NavLink to="/" className="flex justify-center items-center ml-auto text-4xl font-bold text-primary">
                     املاک
-                </p>
-                <NavLink to="/login">ورود | ثبت‌نام</NavLink>
+                </NavLink>
+                <NavButton to="post">ایجاد آگهی</NavButton>
+                <NavButton to="login">ورود | ثبت‌نام</NavButton>
             </div>
         </div>
     );
