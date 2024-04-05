@@ -12,7 +12,7 @@ const NavButton = ({ children, to }: NavButtonProps) => {
                     color: isActive ? "black" : "",
                 };
             }}
-            className="flex justify-center items-center p-2 text-sm md:text-xl font-bold text-gray-600 hover:text-black"
+            className="flex justify-center items-center p-2 text-sm md:text-xl text-gray-600 hover:text-black"
             to={to}
         >
             {children}
