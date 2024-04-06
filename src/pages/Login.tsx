@@ -1,5 +1,6 @@
 import { useState } from "react";
 import LoginForm from "src/components/Login/LoginForm";
+import SignupForm from "src/components/Login/SignupForm";
 
 const Login = () => {
     const [mode, setmode] = useState<"login" | "signup">("login");
@@ -31,7 +32,7 @@ const Login = () => {
                         </p>
                     </button>
                 </div>
-                <LoginForm />
+                {mode === "login" ? <LoginForm /> : <SignupForm />}
             </div>
         </div>
     );
