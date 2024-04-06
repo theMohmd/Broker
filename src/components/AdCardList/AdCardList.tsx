@@ -7,7 +7,7 @@ const AdCardList = () => {
             overflow-auto
             grid auto-rows-max grid-flow-row-dense
             grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
-            gap-2 p-4
+            gap-2 p-5
             max-h-[85dvh]
             "
         >
