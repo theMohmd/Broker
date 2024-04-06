@@ -1,5 +1,5 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-import Loader from "../ui/Loader";
+import Loader from "components/ui/Loader";
 type FormFields = {
     email: string;
     password: string;
