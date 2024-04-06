@@ -5,7 +5,7 @@ import Login from "pages/Login";
 import Post from "pages/Post";
 const App = () => {
     return (
-        <div className="font-iranYekan h-dvh flex flex-col">
+        <div className="flex flex-col font-iranYekan h-dvh">
             <Nav />
             <Routes>
                 <Route path="/" element={<Home />} />

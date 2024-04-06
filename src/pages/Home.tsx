@@ -3,7 +3,7 @@ import Pagination from "components/ui/Pagination";
 
 const Home = () => {
     return (
-        <div className="container flex flex-col items-center grow">
+        <div className="Container flex flex-col items-center grow">
             <AdCardList />
             <div className="flex justify-center items-center grow">
                 <Pagination />
