@@ -38,7 +38,7 @@ const SignupForm = () => {
                 type="submit"
                 className="p-2 text-white rounded-md bg-primary"
             >
-                ورود
+                ثبت‌نام
             </button>
         </form>
     );
